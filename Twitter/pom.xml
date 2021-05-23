@@ -1,0 +1,50 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>saad</groupId>
+  <artifactId>saad</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>SaadTest</name>
+<dependencies>
+
+    <dependency>
+
+        <groupId>org.apache.bahir</groupId>
+
+        <artifactId>spark-streaming-twitter_2.11</artifactId>
+
+        <version>2.4.0</version>
+
+    </dependency>
+
+
+
+    <!-- mvnrepository.com/artifact/org.apache.spark/spark-network-common -->
+
+    <dependency>
+
+        <groupId>org.apache.spark</groupId>
+
+        <artifactId>spark-network-common_2.11</artifactId>
+
+        <version>2.4.7</version>
+
+    </dependency>
+
+
+
+    <!-- mvnrepository.com/artifact/org.apache.spark/spark-streaming -->
+
+    <dependency>
+
+        <groupId>org.apache.spark</groupId>
+
+        <artifactId>spark-streaming_2.11</artifactId>
+
+        <version>2.4.7</version>
+
+    </dependency>
+
+
+
+</dependencies>
+</project>
